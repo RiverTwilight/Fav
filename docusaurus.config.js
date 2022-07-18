@@ -4,6 +4,8 @@
 const lightCodeTheme = require("prism-react-renderer/themes/github");
 const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
+const GITHUB_LINK = "https://github.com/rivertwilight/fav";
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
 	title: "René's Bookmark | 收藏夹",
@@ -39,13 +41,6 @@ const config = {
 					editUrl:
 						"https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
 				},
-				blog: {
-					showReadingTime: true,
-					// Please change this to your repo.
-					// Remove this to remove the "edit this page" links.
-					editUrl:
-						"https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
-				},
 				theme: {
 					customCss: require.resolve("./src/css/custom.css"),
 				},
@@ -57,21 +52,20 @@ const config = {
 		/** @type {import('@docusaurus/preset-classic').ThemeConfig} */
 		({
 			navbar: {
-				title: "My Site",
+				title: "René 的收藏夹",
 				logo: {
 					alt: "My Site Logo",
-					src: "img/logo.svg",
+					src: "img/icon-192.png",
 				},
 				items: [
 					{
 						type: "doc",
 						docId: "intro",
 						position: "left",
-						label: "Tutorial",
+						label: "Bookmarks",
 					},
-					{ to: "/blog", label: "Blog", position: "left" },
 					{
-						href: "https://github.com/facebook/docusaurus",
+						href: GITHUB_LINK,
 						label: "GitHub",
 						position: "right",
 					},
@@ -94,16 +88,16 @@ const config = {
 						items: [
 							{
 								label: "Blog",
-								to: "/blog",
+								to: "https://www.rene.wang",
 							},
 							{
 								label: "GitHub",
-								href: "https://github.com/rivertwilight/fav",
+								href: GITHUB_LINK,
 							},
 						],
 					},
 				],
-				copyright: `Copyright © ${new Date().getFullYear()} René Wang, Inc. Built with Docusaurus.`,
+				copyright: `Copyright © ${new Date().getFullYear()} René Wang.`,
 			},
 			prism: {
 				theme: lightCodeTheme,
