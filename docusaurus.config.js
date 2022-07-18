@@ -25,8 +25,8 @@ const config = {
 	// metadata like html lang. For example, if your site is Chinese, you may want
 	// to replace "en" with "zh-Hans".
 	i18n: {
-		defaultLocale: "en",
-		locales: ["en"],
+		defaultLocale: "zh-Hans",
+		locales: ["zh-Hans"],
 	},
 
 	presets: [
@@ -35,12 +35,14 @@ const config = {
 			/** @type {import('@docusaurus/preset-classic').Options} */
 			({
 				docs: {
+					routeBasePath: "/",
 					sidebarPath: require.resolve("./sidebars.js"),
 					// Please change this to your repo.
 					// Remove this to remove the "edit this page" links.
 					editUrl:
 						"https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
 				},
+				blog: false,
 				theme: {
 					customCss: require.resolve("./src/css/custom.css"),
 				},
@@ -58,12 +60,12 @@ const config = {
 					src: "img/icon-192.png",
 				},
 				items: [
-					{
-						type: "doc",
-						docId: "intro",
-						position: "left",
-						label: "Bookmarks",
-					},
+					// {
+					// 	type: "doc",
+					// 	docId: "intro",
+					// 	position: "left",
+					// 	label: "Bookmarks",
+					// },
 					{
 						href: GITHUB_LINK,
 						label: "GitHub",
