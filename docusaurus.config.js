@@ -12,7 +12,7 @@ const config = {
 	tagline: "Dinosaurs are cool",
 	url: "https://fav.rene.wang",
 	baseUrl: "/",
-	onBrokenLinks: "throw",
+	onBrokenLinks: "ignore",
 	onBrokenMarkdownLinks: "warn",
 	favicon: "img/favicon.ico",
 
@@ -25,8 +25,8 @@ const config = {
 	// metadata like html lang. For example, if your site is Chinese, you may want
 	// to replace "en" with "zh-Hans".
 	i18n: {
-		defaultLocale: "zh-Hans",
-		locales: ["zh-Hans"],
+		defaultLocale: "en",
+		locales: ["en"],
 	},
 
 	presets: [
