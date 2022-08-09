@@ -1,0 +1,8 @@
+{
+	"label": "未分类",
+	"position": 6,
+	"link": {
+		"slug": "ungroup",
+		"type": "generated-index"
+	}
+}

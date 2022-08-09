@@ -1,0 +1,8 @@
+{
+	"label": "健康",
+	"position": 2,
+	"link": {
+		"slug": "health",
+		"type": "generated-index"
+	}
+}

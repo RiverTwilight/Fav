@@ -1,0 +1,8 @@
+{
+	"label": "技能与提升",
+	"position": 4,
+	"link": {
+		"slug": "skills",
+		"type": "generated-index"
+	}
+}
