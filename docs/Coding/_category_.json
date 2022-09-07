@@ -1,6 +1,6 @@
 {
-	"label": "生活方式",
-	"position": 5,
+	"label": "程序人生",
+	"position": 7,
 	"link": {
 		"slug": "skills",
 		"type": "generated-index"
