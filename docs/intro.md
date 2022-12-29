@@ -9,8 +9,8 @@ position: 1
 
 ## 目录 Contents
 
--   [Health](/health)
--   [Life](/life)
+-   [Health](/Health)
+-   [Life](/Lifestyle)
 -   [Skills](/Skills)
 -   [Culture](/Culture)
 -   [Tech](/Tech)
