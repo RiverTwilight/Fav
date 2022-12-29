@@ -4,18 +4,17 @@
 
 为了方便地保存与分享书籍，我们往往需要将纸质书电子化，而最常见的方式则是通过扫描将其保存为 [数字世界的纸张](https://sspai.com/post/47092)——PDF。选择合适的扫描工具与方法，可以提高 PDF 的扫描质量。此外，与直接得到的原版 PDF 相比，扫描版 PDF 一般没有书签，页码往往也不正确，需要进行调整。为了提高处理扫描版书籍的效率，得到一本「功能完备」的 PDF 书籍，下面分享一些我的技巧。
 
-使用手机扫描
-------
+## 使用手机扫描
 
 尽管有专门的扫描仪器用于扫描文件，但为了扫描书籍，手机基本上就足够了。市面上已有很多扫描 App 可供选择，比如 iOS 系统自带的备忘录、[白描](https://sspai.com/app/%E7%99%BD%E6%8F%8F)、[Microsoft Lens](https://apps.apple.com/us/app/microsoft-lens-pdf-scanner/id975925059)、[Scanner Pro](https://apps.apple.com/us/app/scanner-pro-ocr-scanning-fax/id333710667) 等。
 
 在 iOS 上，我选择了完全免费的 [vFlat Scan](https://apps.apple.com/us/app/vflat-scan-pdf-scanner/id1540238220)（也有 [Android](https://play.google.com/store/apps/details?id=com.voyagerx.scanner) 版本），主要是因为它有一些专门为扫描书籍而设计的功能，包括：
 
-*   **扫描区域自动识别**：自动识别要扫描的文档或书籍的边框，无需手动裁剪。
-*   **自动捕获**：识别扫描目标并自动捕获，无需反复点按，在扫描数百页的书籍时很有用。
-*   **展平弯曲的页面**：自动拉直书页的曲面，无需拆书。
-*   **自动去除手指**：在需要用手指将书籍平铺的场景下，可以移除书籍边缘的手指印记。
-*   **双页捕获**：自动捕捉书籍的左右页，分割为两页保存。
+-   **扫描区域自动识别**：自动识别要扫描的文档或书籍的边框，无需手动裁剪。
+-   **自动捕获**：识别扫描目标并自动捕获，无需反复点按，在扫描数百页的书籍时很有用。
+-   **展平弯曲的页面**：自动拉直书页的曲面，无需拆书。
+-   **自动去除手指**：在需要用手指将书籍平铺的场景下，可以移除书籍边缘的手指印记。
+-   **双页捕获**：自动捕捉书籍的左右页，分割为两页保存。
 
 ![](https://cdn.sspai.com/editor/u_/ce6s4fdb34tf7sttdrng)vFlat Scan 自动识别双页并保存为两页
 
@@ -31,8 +30,7 @@
 
 ![](https://cdn.sspai.com/2022/12/05/389a714531aa15faf4edf9f900c0c648.gif)使用 PDF Expert 移除 PDF 中多余的元素
 
-识别 PDF 文字
----------
+## 识别 PDF 文字
 
 「使用手机扫描」之后，纸质书电子化就完成了第一步。很多情况下到这一步就可以了，但是为了让电子版书籍更加完善，还需要进行进一步的处理。而为了搜索 PDF 中的内容，或阅读时进行批注，首先就要识别其中的文字，即 [OCR](https://en.wikipedia.org/wiki/Optical_character_recognition)（光学字符识别）。扫描得到的 PDF 文件实际上是一系列图片，而 OCR 则是在其上层增加一层文字图层，已有很多工具可以对 PDF 进行 OCR，我主要使用 [Adobe Acrobat](https://acrobat.adobe.com/) 和 [DEVONthink](https://www.devontechnologies.com/apps/devonthink)。
 
@@ -56,8 +54,7 @@ Adobe 作为 [PDF](https://en.wikipedia.org/wiki/PDF) 标准的创立者，旗�
 
 ![](https://cdn.sspai.com/editor/u_/ce6s4gtb34tf7t6a85f0)在 Apple Silicon Mac 和 iOS 上，可以选中扫描版 PDF 中的文字
 
-制作 PDF 书签
----------
+## 制作 PDF 书签
 
 PDF 书签（[bookmark](https://helpx.adobe.com/hk_en/acrobat/using/page-thumbnails-bookmarks-pdfs.html)）是指导航窗格的书签面板中的超链接文本，对应着不同的页码，一般也叫作「目录」或「大纲」。
 
@@ -67,15 +64,15 @@ PDF 书籍动辄几百页，为其添加书签有助于在不同章节之间方�
 
 PDFtk 是一个处理 PDF 文件的工具，包括 PDFtk Free、PDFtk Pro 和 PDFtk Server，其中的命令行工具 PDFtk Server 可以免费使用，适用于 macOS、Linux 和 Windows。PDFtk 没有被 Homebrew 的官方源所收录，因此在 macOS 上使用 Homebrew 安装之前，需要先添加一个 [Tap](https://github.com/zph/homebrew-cervezas) ([Third-Party Repository](https://docs.brew.sh/Taps)) `brew tap zph/cervezas`，然后执行 `brew install zph/cervezas/pdftk`，就可以安装了。
 
-下面以《[制作目录标题](https://ipfs.io/ipfs/bafykbzacea7xaqakzslgdytxo4p6nqbvq7bke3junl6gb7o2ion2jn4pdwzpq?file>遏制民族主义</a>》这本书为例，说明如何为 PDF 书籍制作书签。</p><h3 id=)
+下面以《[制作目录标题](https://ipfs.io/ipfs/bafykbzacea7xaqakzslgdytxo4p6nqbvq7bke3junl6gb7o2ion2jn4pdwzpq?file>遏制民族主义》这本书为例，说明如何为 PDF 书籍制作书签。)
 
-[制作 PDF 书签前，需要提供书签信息，即章节名称和对应的页码，以供 PDFtk 读取并写入 PDF 文件中。好消息是书籍的目录标题一般都很容易获取，不需要自己手动编辑，一般来说，豆瓣、Amazon 或出版社官网页的书籍介绍页都会提供目录，我们只需要复制它，然后将其保存为 `heading.txt`。](https://ipfs.io/ipfs/bafykbzacea7xaqakzslgdytxo4p6nqbvq7bke3junl6gb7o2ion2jn4pdwzpq?file>遏制民族主义</a>》这本书为例，说明如何为 PDF 书籍制作书签。</p><h3 id=)
+[制作 PDF 书签前，需要提供书签信息，即章节名称和对应的页码，以供 PDFtk 读取并写入 PDF 文件中。好消息是书籍的目录标题一般都很容易获取，不需要自己手动编辑，一般来说，豆瓣、Amazon 或出版社官网页的书籍介绍页都会提供目录，我们只需要复制它，然后将其保存为 `heading.txt`。](https://ipfs.io/ipfs/bafykbzacea7xaqakzslgdytxo4p6nqbvq7bke3junl6gb7o2ion2jn4pdwzpq?file>遏制民族主义》这本书为例，说明如何为 PDF 书籍制作书签。)
 
 [![](https://cdn.sspai.com/editor/u_/ce6s4htb34tf62m34nu0)豆瓣读书上《遏制民族主义》的目录
 
 PDF 书签和 Markdown 中的标题一样，也是有层级的，比如在《遏制民族主义》这本书中，`第一章 民族主义的困惑`是一级标题，`民族主义的界定` 则是二级标题。为了对不同的标题层级进行区分，我们借用 Markdown 的语法，将其改写为：
 
-```
+````
 # 出版说明
 # 目录
 # 第一章 民族主义的困惑
@@ -102,7 +99,7 @@ PDF 书签和 Markdown 中的标题一样，也是有层级的，比如在《遏
 ## 结论
 ……
 
-```](https://ipfs.io/ipfs/bafykbzacea7xaqakzslgdytxo4p6nqbvq7bke3junl6gb7o2ion2jn4pdwzpq?file>遏制民族主义</a>》这本书为例，说明如何为 PDF 书籍制作书签。</p><h3 id=) 
+```](https://ipfs.io/ipfs/bafykbzacea7xaqakzslgdytxo4p6nqbvq7bke3junl6gb7o2ion2jn4pdwzpq?file>遏制民族主义</a>》这本书为例，说明如何为 PDF 书籍制作书签。</p><h3 id=)
 
 [为了提高效率，上述操作可以借用](https://ipfs.io/ipfs/bafykbzacea7xaqakzslgdytxo4p6nqbvq7bke3junl6gb7o2ion2jn4pdwzpq?file>遏制民族主义</a>》这本书为例，说明如何为 PDF 书籍制作书签。</p><h3 id=) [正则表达式](https://en.wikipedia.org/wiki/Regular_expression) 进行批量查找替换，或者在 [iA Writer](https://ia.net/writer) 或 [Typora](https://typora.io/) 中使用快捷键操作。
 
@@ -122,10 +119,11 @@ PDF 书签和 Markdown 中的标题一样，也是有层级的，比如在《遏
 
 由于 PDF 书签的页码总是从第 1 页开始计算的，因此，通过 OCR 得到的每一个页码都需要加上 9。如果需要对正文之前的部分制作书签，可以在 `pagenumber.txt` 中手动输入对应页码减去前言部分的页码数。对于《遏制民族主义》这本书来说，「出版说明」和「目录」分别在第 4 和 7 页，减去 9 后分别是 -5 和 -2。下面的例子中，第一列数字是我们 OCR 和手动编辑后的结果，第二列数字是它们在 PDF 中对应的页码：
 
-```
--5 -> 4  # 出版说明
--2 -> 7  # 目录
-1 -> 10  # 正文
+````
+
+-5 -> 4 # 出版说明
+-2 -> 7 # 目录
+1 -> 10 # 正文
 5 -> 14
 9 -> 18
 10 -> 19
@@ -154,6 +152,7 @@ PDF 书签和 Markdown 中的标题一样，也是有层级的，比如在《遏
 使用 Shell 脚本可以非常容易地实现上面这个转换：
 
 ```
+
 cat pagenumber.txt | awk NF | while read line; do echo $((${line}+9)); done > realpage.text
 
 ```
@@ -165,6 +164,7 @@ cat pagenumber.txt | awk NF | while read line; do echo $((${line}+9)); done > re
 将上面的目录标题和对应页码这两个文件合并到一起：
 
 ```
+
 paste heading.txt realpage.text > bookmark.text
 
 ```
@@ -172,30 +172,55 @@ paste heading.txt realpage.text > bookmark.text
 `paste` [命令](https://linuxize.com/post/paste-command-in-linux/) 的作用是将文件逐行合并在一起，默认使用 Tab 键分隔两个文件中的内容，因此得到如下的结果：
 
 ```
-# 出版说明        4
-# 目录        7
-# 第一章 民族主义的困惑        10
-## 民族主义的界定        14
-## 治理单元        18
-## 民族        19
-## 民族的突出特征        22
-## 民族主义的类型        24
-# 第二章 民族主义的起因        32
-## 群体的形成        33
-## 群体团结的决定因素        35
-## 为何民族主义是现代的事物        38
-## 谁是民族主义者        42
-## 什么制度才能遏制民族主义？        45
-# 第三章 间接统治与民族主义的缺失        52
-## 间接统治的兴起：原始国家形成理论        54
-## 欧洲历史上的间接统治        61
-## 欧洲殖民地的间接统治        66
-## 结论        69
-# 第四章 国家建设民族主义        77
-## 直接统治的兴起        78
-## 直接统治的影响        80
-## 直接统治与国家建设民族主义        83
-## 结论        88
+
+# 出版说明 4
+
+# 目录 7
+
+# 第一章 民族主义的困惑 10
+
+## 民族主义的界定 14
+
+## 治理单元 18
+
+## 民族 19
+
+## 民族的突出特征 22
+
+## 民族主义的类型 24
+
+# 第二章 民族主义的起因 32
+
+## 群体的形成 33
+
+## 群体团结的决定因素 35
+
+## 为何民族主义是现代的事物 38
+
+## 谁是民族主义者 42
+
+## 什么制度才能遏制民族主义？ 45
+
+# 第三章 间接统治与民族主义的缺失 52
+
+## 间接统治的兴起：原始国家形成理论 54
+
+## 欧洲历史上的间接统治 61
+
+## 欧洲殖民地的间接统治 66
+
+## 结论 69
+
+# 第四章 国家建设民族主义 77
+
+## 直接统治的兴起 78
+
+## 直接统治的影响 80
+
+## 直接统治与国家建设民族主义 83
+
+## 结论 88
+
 ……
 
 ```
@@ -205,6 +230,7 @@ paste heading.txt realpage.text > bookmark.text
 使用 PDFtk 导出一个带有书签的 PDF 文件的元数据信息，保存为 `test.text`：
 
 ```
+
 pdftk input.pdf dump_data output test.text
 
 ```
@@ -212,6 +238,7 @@ pdftk input.pdf dump_data output test.text
 打开 `test.text` 可以发现，PDF 书签信息的格式形如：
 
 ```
+
 BookmarkBegin
 BookmarkTitle: Section 1
 BookmarkLevel: 1
@@ -226,7 +253,7 @@ BookmarkLevel: 3
 BookmarkPageNumber: 30
 …
 
-```
+````
 
 容易发现，每个书签条目由 4 行组成：
 
@@ -237,12 +264,12 @@ BookmarkPageNumber: 30
 
 了解了 PDF 书签的构成方式，我们就可以使用 Perl 结合正则表达式，在命令行中将之前得到 `bookmark.text` 转换为同样的格式：
 
-```
+```bash
 perl -i -pe 's/^#\s(.*)\t(\d+)/BookmarkBegin\nBookmarkTitle: \1\nBookmarkLevel: 1\nBookmarkPageNumber: \2/g; \
     s/^##\s(.*)\t(\d+)/BookmarkBegin\nBookmarkTitle: \1\nBookmarkLevel: 2\nBookmarkPageNumber: \2/g; \
     s/^###\s(.*)\t(\d+)/BookmarkBegin\nBookmarkTitle: \1\nBookmarkLevel: 3\nBookmarkPageNumber: \2/g' bookmark.text
 
-```
+````
 
 得到如下的结果：
 
@@ -365,19 +392,18 @@ clean:
 
 复制上面的代码，粘贴到文本编辑器中并保存为 `Makefile`。在制作好 `heading.txt` 和 `pagenumber.txt` 后，调整第 6 行 `$${line}+9` 中的数字，然后执行 `make bookmark`，就可以得到带有书签的 PDF 书籍 `output.pdf`，执行 `make clean` 则会删除中间过程用到的扩展名为 `.text` 的辅助文件。
 
-**调整 PDF 页码**
--------------
+## **调整 PDF 页码**
 
 使用 DEVONthink 或 [Zotero](https://www.zotero.org/) 提取 PDF 中的批注时，会有相应的页码，而我在写论文引用该页的时候，想要看到的是页眉或页脚中的页码，而不是 PDF 中的页码。而前文已提到，书籍页眉或页脚中的页码与 PDF 中的页码并不一致，因此，**需要对 PDF 的页码进行调整，使其与书籍页眉或页脚中的页码保持一致**。一般来说，书籍的前言部分页码标签为罗马数字，正文开始使用阿拉伯数字，而正是这个原因，导致 PDF 的页码与书籍页眉或页脚中的页码不一致。因此，调整 PDF 页码就是调整对应的页码标签。
 
 在 Adobe Acrobat 中，打开需要调整页码的 PDF，在左侧缩略图中选中页面，点击右键选择「Page Labels…」，然后在出现的「Page Numbering」窗口中进行调整，包括需要更改的页码范围、页码前缀、起始页码等，其中 Style 一栏包括 6 个选项：
 
-*   无页码标签 (None)
-*   阿拉伯数字 (1, 2, 3, …)
-*   小写罗马数字 (i, ii, ii, …)
-*   大写罗马数字 (I, II, II, …)
-*   小写英文字母 (a, b, c, …)
-*   大写英文字母 (A, B, C, …)
+-   无页码标签 (None)
+-   阿拉伯数字 (1, 2, 3, …)
+-   小写罗马数字 (i, ii, ii, …)
+-   大写罗马数字 (I, II, II, …)
+-   小写英文字母 (a, b, c, …)
+-   大写英文字母 (A, B, C, …)
 
 ![](https://cdn.sspai.com/editor/u_/ce6s4j5b34tf7sttdrog) 在 Adobe Acrobat 中调整 PDF 页码
 
@@ -427,8 +453,7 @@ pdftk uncompress.pdf output output.pdf compress
 
 ![](https://cdn.sspai.com/editor/u_/ce6s4jlb34tf62m34nug)调整后的页码
 
-小结
---
+## 小结
 
 在本文中，我分享了将纸质书籍扫描成 PDF 并对其进行 OCR、添加书签、调整页码等步骤，基本实现了纸质书的「电子化」。当然，其中的部分操作不仅限于扫描版 PDF，对于一般的 PDF 文件也是适用的。如果完成上述操作之后，PDF 的体积变得非常大，你可以选择将它压缩一下，然后就可以愉快地阅读与分享电子版 PDF 书籍了。
 
