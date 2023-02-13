@@ -1,0 +1,8 @@
+{
+	"label": "区块链",
+	"position": 3,
+	"link": {
+		"slug": "Crypto",
+		"type": "generated-index"
+	}
+}
