@@ -1,0 +1,8 @@
+{
+	"label": "网络安全/CTF",
+	"position": 3,
+	"link": {
+		"slug": "cyber_security",
+		"type": "generated-index"
+	}
+}
