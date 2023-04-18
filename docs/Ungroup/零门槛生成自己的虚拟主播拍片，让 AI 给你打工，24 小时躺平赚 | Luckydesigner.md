@@ -1,0 +1,174 @@
+> 本文由 [简悦 SimpRead](http://ksria.com/simpread/) 转码， 原文地址 [www.luckydesigner.space](https://www.luckydesigner.space/generate-virtual-ai-podcast-24h-earn-money/)
+
+> 偶然间，伯衡君发现一些短视频或者视频号中，有越来越多的虚拟主播出现了，几乎和真人毫无二致，表情、身型、言谈、动…
+
+摘要
+
+偶然间，伯衡君发现一些短视频或者视频号中，有越来越多的虚拟主播出现了，几乎和真人毫无二致，表情、身型、言谈、动作等等都极其似人。其实这就蕴含着无限商机，大大节约人力成本，丰富视频内容，那么它是如何实现呢？本篇文章就来带大家探讨一番……
+
+![](https://www.luckydesigner.space/wp-content/uploads/2023/04/generate-virtual-ai-podcast-24h-earn-money.png)
+
+#### 开篇寄语
+
+偶然间，伯衡君发现一些短视频或者视频号中，有越来越多的虚拟主播出现了，几乎和真人毫无二致，表情、身型、言谈、动作等等都极其似人。其实这就蕴含着无限商机，大大节约人力成本，丰富视频内容，那么它是如何实现呢？本篇文章就来带大家探讨一番。
+
+#### 前情提要
+
+*   《[火爆全网的 ChatGPT 是什么？注册使用流程以及其他衍生品](https://www.luckydesigner.space/what-is-chatgpt-how-to-use-and-others/)》
+*   《[你可以有更多选择，细数那些 ChatGPT 的替代品](https://www.luckydesigner.space/you-can-choose-chatgpt-alternatives/)》
+*   《[Google 推出的类 ChatGPT 产品 Bard，如何申请以及我的体验](https://www.luckydesigner.space/google-publish-like-chatgpt-how-to-apply-and-experience/)》
+*   《[New Bing Chat 酷炫玩法推荐集合](https://www.luckydesigner.space/new-bing-chat-cool-things-collection/)》
+*   《[如何将文章文稿快速转化为视频？或许你可以试试如下几招](https://www.luckydesigner.space/how-to-make-articles-convert-to-video/)》
+
+#### 内容详情
+
+不知道大家有没有看到过这种视频，比如这个：
+
+![](https://www.luckydesigner.space/wp-content/uploads/2023/04/generate-virtual-ai-podcast-24h-earn-money2.jpeg)
+
+又比如这个：
+
+![](https://www.luckydesigner.space/wp-content/uploads/2023/04/generate-virtual-ai-podcast-24h-earn-money3.png)
+
+如果我说每个视频都是由虚拟主播生成的，你敢相信吗？而事实确实如此，仔细思考一下，如果让这些虚拟主播为你直播，录制视频，凭空多出这么多为你打工的员工，你的财富增长将是指数级增长，想想就刺激是不是？
+
+虚拟主播使用数字化技术可以实现更多创意和表现方式，例如在直播中运用更多特效和互动，还能够根据不同需求进行形象定制，更好地满足用户的需求。此外，虚拟主播还可以通过数字化技术实现多种商业模式，例如销售周边产品或者开通会员等方式，从而实现商业变现。
+
+是不是跃跃欲试，想要开始自己的宏图大业了？
+
+伯衡君为大家准备了如下几种方案，来打造自己的虚拟主播：
+
+*   PlayGround AI + D-ID AI
+*   El[ai](https://www.luckydesigner.space/tag/ai/ "查看与 ai 相关的文章").io
+*   智影数字人
+
+首推 PlayGround AI + D-ID AI
+
+![](https://www.luckydesigner.space/wp-content/uploads/2023/04/generate-virtual-ai-podcast-24h-earn-money4-1024x576.png)
+
+第一种方案是先用 Playground AI 生成一张虚拟主播图片，然后再用 D-ID 让这个虚拟主播将文案讲出来。
+
+Playground AI 是一个免费使用的在线 AI 图像创建器，可以根据用户给出的提示词，生成相应的高质量图片。
+
+网址是：https://playgroundai.com/
+
+![](https://www.luckydesigner.space/wp-content/uploads/2023/04/generate-virtual-ai-podcast-24h-earn-money5-1024x487.jpg)
+
+打开网站，往下滑动就可以看到其他网友用它生成的图片，是不是很逼真？
+
+登录后，就可以进入图片生成操作界面，先来简单介绍下生成一个高质量图片，都需要填写哪些参数。
+
+![](https://www.luckydesigner.space/wp-content/uploads/2023/04/generate-virtual-ai-podcast-24h-earn-money6-1024x437.jpg)
+
+**左边**
+
+*   Filter：风格筛选器，想要生成的图片呈现不同的风格，生成虚拟主播建议选择 “Instaport”
+*   Prompt：提示词，这个是关键，高质量提示词能够让其生成高质量图片
+*   Exclude From Image：生成图片不包含的提示词
+*   image to image：以图生图，根据上传的图片灵感结合提示词生成图片
+
+**右边**
+
+*   Model：用什么模型来生成图片，这里用默认模式即可
+*   Image Dimensions：图片尺寸，建议选择最大的
+*   Prompt Guidance：遵循提示词等级，等级越高，和提示词越相符
+*   Quality & Details：质量和细节，级别越高，生成速度越慢
+*   Number of Images：生成图片数量，1～4 张都可以
+
+咱们直接来个实例，Prompt 填写，比如撰写一个 A handsome japanese man with clear eyes, sharp eyebrows。
+
+不包含的提示词填写什么呢？官方 Youtube 频道一则视频给出了不需要的关键词，可以填写在这里，“text, signature, title, heading, watermark, ugly, duplicate, morbid, mutilated, out of frame, extra fingers, mutated hands, poorly drawn hands, poorly drawn face, mutation, deformed, blurry, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, out of frame, ugly, extra limbs, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, mutated hands, fused fingers, too many fingers, long neck”
+
+遵循提示词等级选择 10，质量和细节选择系统推荐等级 50，生成 4 张图，点击生成后，生成图片的效果如下：
+
+![](https://www.luckydesigner.space/wp-content/uploads/2023/04/generate-virtual-ai-podcast-24h-earn-money7-1024x447.jpg)
+
+效果不错吧，伯衡君选择右下角第四张图作为御用主播。
+
+把它下载下来，保存到本地备用，想让这个主播能够说话，动起来，就需要借助一家以色列开发的平台——D-ID，可以让生成图片动起来，并且口型、表情、动作也能对得上。
+
+D-ID 网址是：https://www.d-id.com/
+
+免费用户可以生成总时长 5 分钟的视频时长。
+
+注册，登录后就进入制作平台。
+
+![](https://www.luckydesigner.space/wp-content/uploads/2023/04/generate-virtual-ai-podcast-24h-earn-money8-1024x480.jpg)
+
+上传刚刚制作好的图片，上传完毕后，点击该图片，然后在 Script 那里撰写你想要他说的话，比如伯衡君在这里让他说：
+
+*   大家好，今天由我伯衡君来为大家做天气预报，本人现在在梵蒂冈，今天的梵蒂冈天气晴，播报完毕，谢谢大家
+
+可以选择播报人的音色，音速，可选择性很自由，能够满足你大部分需求。
+
+这样一来，你就有一个虚拟主播了，是不是很激动？
+
+先别激动，接下来介绍的或许能够让你更为心动，其名字叫做 Elai。
+
+Elai.io 是一个基于人工智能的 AI 视频生成平台，可以让你只用文本就能制作出有真人主持的专业视频。你可以从 25 个以上的虚拟主持人中选择，或者用自己的手机或网络摄像头创建一个自己的动画视频头像。你还可以利用 GPT-3 和 Elai.io 的集成，从零开始创建一个视频脚本，并根据它生成一个视频。Elai.io 还可以帮助你把博客文章转换成有声视频，或者把 PPT 转换成视频。
+
+总之，就是非常好用就对了。
+
+它已经内置了大量模板，演示一下如何使用，登录后进入后台。
+
+![](https://www.luckydesigner.space/wp-content/uploads/2023/04/generate-virtual-ai-podcast-24h-earn-money9-1024x546.png)
+
+点击 "Create"，进入操作平台。
+
+![](https://www.luckydesigner.space/wp-content/uploads/2023/04/generate-virtual-ai-podcast-24h-earn-money10-1024x487.jpg)
+
+可以看到在 Avatar 选项可有大约 25 个内置主播可选，如果想制作专属于自己的主播，就需要花钱了，目前的价格官方也给出了售价，请看：
+
+![](https://www.luckydesigner.space/wp-content/uploads/2023/04/generate-virtual-ai-podcast-24h-earn-money11.png)
+
+自制专属的虚拟主播不带声音，只是形象的话一年是 259 美元，如果还带有声音，一年的费用则是 659 美元，大家可以自行参考是否续费，花费的这些钱能不能带给你超额收益，认真想一想就知道值不值得花费这笔钱了。
+
+我们返回免费版的操作台，任意选择一个模板，方便创作，比如选择这个黑人小哥。
+
+![](https://www.luckydesigner.space/wp-content/uploads/2023/04/generate-virtual-ai-podcast-24h-earn-money12-1024x424.png)
+
+文案还是播报天气，再文字框输入想要虚拟主播说的话：
+
+*   大家好，今天由我伯衡君来为大家做天气预报，本人现在在梵蒂冈，今天的梵蒂冈天气晴，播报完毕，谢谢大家
+
+语音可以让内置语音模式生成，方便快捷，制作完成后，点击渲染就可以了。
+
+免费的有一分钟时长，想要更多则要付费了。
+
+第三个推荐是智影数字人。
+
+![](https://www.luckydesigner.space/wp-content/uploads/2023/04/generate-virtual-ai-podcast-24h-earn-money13-1024x576.png)
+
+首先，你可以用智影来创建你自己的数字人形象和声音。你只需要上传一些你自己的照片、视频和音频素材，智影就能生成一个逼真而富有表情的数字人，可以说出你的话语。你可以用这个功能来制作你自己的新闻报道、产品评测、教程或者任何你想要的视频内容。
+
+![](https://www.luckydesigner.space/wp-content/uploads/2023/04/generate-virtual-ai-podcast-24h-earn-money14-1024x312.png)
+
+现在登录后可以免费拥有 3 天使用权限，生成视频时限为 10 分钟，可以趁着这段时间任性制造你想要的虚拟主播。
+
+当前，拥有 2D 和 3D 的虚拟主播形象供用户选择。
+
+![](https://www.luckydesigner.space/wp-content/uploads/2023/04/generate-virtual-ai-podcast-24h-earn-money15-1024x471.jpg)
+
+自然，也可以定制，定制需要额外按年收费，有兴趣的朋友可以尝试自制。
+
+任意选择一个虚拟主播，就会进入操作台。
+
+![](https://www.luckydesigner.space/wp-content/uploads/2023/04/generate-virtual-ai-podcast-24h-earn-money16-1024x480.jpg)
+
+支持手动输入文本，以及导入文本，还有音色的选择。
+
+伯衡君准备让她播报一段天气预报，文本如下：
+
+今天新加坡的最高温度是 92°F，最低温度是 77°F，多云间晴，空气质量一般。未来两小时内无降水，但晚上可能有雲量增加。明天新加坡的最高温度是 91°F，最低温度是 77°F，局部多雲，空气质量一般。后天新加坡的最高温度是 90°F，最低温度是 77°F，局部多雲，空气质量一般
+
+输入完毕，生成音频，最后再点击合成。
+
+等待约一分钟左右，视频就合成好了，一个鲜活的美女播报员就来给你播报天气预报啦。
+
+![](https://www.luckydesigner.space/wp-content/uploads/2023/04/generate-virtual-ai-podcast-24h-earn-money17.png)
+
+质量还是不错的，值得一试。
+
+#### 温馨提示
+
+后续如果发现更多可以生成虚拟主播的应用，伯衡君就会陆续更新本篇文章。
