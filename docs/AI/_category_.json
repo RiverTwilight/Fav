@@ -1,0 +1,8 @@
+{
+	"label": "人工智能",
+	"position": 9,
+	"link": {
+		"slug": "ai",
+		"type": "generated-index"
+	}
+}
