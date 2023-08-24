@@ -1,6 +1,6 @@
 ---
 slug: /
-position: 1
+position: -1
 ---
 
 # Rene 的收藏夹
